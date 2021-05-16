@@ -1,0 +1,5 @@
+# replace <app-chart-name> with the value given in requirements.yaml
+ct-app-1:
+  # provides values from the values.yaml in the <app-chart-name> helm chart
+  replicaCount: 2
+  deploy: false
