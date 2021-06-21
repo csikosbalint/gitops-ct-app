@@ -1,20 +1,11 @@
-# Continuous Deployment with Argo CD and IBM Multi Cloud Manager
+# Continuous Deployment with Argo CD and Fleet Management Toolset
 
-This repository contains a sample app configuration to use as a reference for configuring a helm repo deployment via Continuous Delivery (CD) using GitOps. There are samples for both [Argo CD](https://argoproj.github.io/argo-cd/)  and [IBM Multi Cloud Manager]()
-
-## IBM Multi Cloud Manager
-
-IBM Multi Cloud Manager will enable SRE and IT operations to remotely manage the entire development, security and operations pipelines from a single control plane. Automation delivers the operational efficiency and application resiliency necessary to ensure business continuity and continuous innovation.
-
-For more information on how to manage Continuous Delivery of applications
- with MCM see the details documented here [Configure Applications with MCM
- ](./templates/app-mcm/README.md)
+This repository contains a sample app configuration to use as a reference for configuring a helm repo deployment via Continuous Delivery (CD) using GitOps. There are samples for both [Argo CD](https://argoproj.github.io/argo-cd/) 
 
 ## ArgoCD
 
 ArgoCD is an open source tool that has been 
-created to enable declarative GitOps Continuous Delivery on container platforms. It fully supports IBM Kubernetes Services 
-and Red Hat OpenShift.
+created to enable declarative GitOps Continuous Delivery on container platforms. It fully supports Kubernetes Services.
 
 Argo CD follows the GitOps pattern of using Git repositories as the source of truth for defining the desired application 
 state. Kubernetes manifests can be specified in several ways:
