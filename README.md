@@ -1,4 +1,4 @@
-# Continuous Deployment with Argo CD and Fleet Management Toolset
+# Continuous Deployment with Argo CD and Fleet Management Toolset (XXX)
 
 This repository contains a sample app configuration to use as a reference for configuring a helm repo deployment via Continuous Delivery (CD) using GitOps. There are samples for both [Argo CD](https://argoproj.github.io/argo-cd/) 
 
